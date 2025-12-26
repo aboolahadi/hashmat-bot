@@ -1,2 +1,3 @@
-rubika_bot_api
+rubika-bot-api==1.2.0
 requests
+orjson
