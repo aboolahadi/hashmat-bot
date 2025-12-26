@@ -5,8 +5,8 @@ from rubika_bot_api.api import Robot
 from rubika_bot_api import filters
 
 # ========= تنظیمات =========
-RUBIKA_TOKEN = "FGGCF0ZCZKMWPBMJKTNIBMUONOFASGPZOWOUDJWMSXJVWYTGBCDEDHFCRTKPWJCG"
-GROQ_API_KEY = "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"
+RUBIKA_TOKEN = "RUBIKA_TOKEN"
+GROQ_API_KEY = "GROQ_API_KEY"
 
 bot = Robot(token=RUBIKA_TOKEN)
 
@@ -113,4 +113,5 @@ async def handle_message(bot_instance, message):
 # ========= اجرا =========
 if __name__ == "__main__":
     print("🤖 حشمت آنلاین شد")
+
     asyncio.run(bot.run())
