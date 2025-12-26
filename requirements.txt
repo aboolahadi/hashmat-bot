@@ -1,2 +1,2 @@
-rubika-bot-api
+rubika_bot_api
 requests
